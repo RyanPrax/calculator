@@ -4,20 +4,24 @@ To figure out what the user wants to calculate, an initial screen will be printe
 
 The initial screen will be contained in a declared void function named "Selection Screen"
 
-The input will be obtained by first assigning the global integer variable ```Choice```, then by using the ```cin``` statement
+The input will be obtained by first assigning the global integer variable `Choice`, then by using the `cin` statement
 
 When the function is finished, don't forget to call the function in main:
-```int main() {
+
+```
+int main() {
     SelectionScreen();
     return 0;
-}```
+}
+```
 
 ## Implementing the selections
 
 The various options for the calculator will be their own seperate void functions, called in main via a switch
 
 The switch will look like this:
-```switch (choice)
+```
+switch (choice)
     {
     case 1:
         Addition();
@@ -44,4 +48,5 @@ The switch will look like this:
         Quadratic();
     default:
         cout << "Number not valid, enter a valid number";
-    }```
+    }
+    ```
