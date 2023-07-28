@@ -7,3 +7,5 @@ Features include
 - Exponentials
 - Geometry (volume/area of various shapes)
 - Quadratics
+
+## To follow the tutorial, use the included files and their respective README's
